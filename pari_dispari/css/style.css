@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+.box{
+    width: 250px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+.box button{
+    width: 80px;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.flex{
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#n1, #n2{
+    padding: 20px;
+    text-transform: uppercase;
+}
+#som{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#solution{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+    font-size: 30px;
+}
