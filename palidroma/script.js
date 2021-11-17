@@ -2,7 +2,7 @@
 // Creare una funzione per capire se la parola inserita è palindroma
 
     // input
-let word = prompt('Inserisci la parola');
+let word = prompt('Inserisci la parola').toLocaleLowerCase();
 
     // con questa funzione posso invertire una stringa
 function reverse(s){
@@ -18,3 +18,19 @@ if(word == s){
 }else{
     alert('Parola NON palindroma.');
 }
+
+
+
+
+
+
+
+
+// alternativa
+// let parolaInversa = 0;
+// function reverse(parolaInversa){
+//     for(let i = word.length - 1; i >= 0; i--){
+//         parolaInversa += word[i];
+//     }
+//     return parolaInversa
+// }
